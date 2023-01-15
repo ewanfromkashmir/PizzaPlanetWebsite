@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets/site.css" type="text/css">
+    <link rel="stylesheet" href="stylesheets/order.css" type="text/css">
+    <link rel="icon" href="images/pp-logo-favicon.png" type="image/x-icon">
+    <title>Order | Pizza Planet</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <img class="logo" src="images/pp-logo.png" alt="Pizza Planet">
+        </aside>
+        <article>
+            <h1>Complete Order</h1>
+            <br>
+            <div class="pizza">
+                <img src="" alt="">
+                <div class="columns">
+                    <div class="title"></div>
+                    <div class="price"></div>
+                </div>
+                <p class="desc"></p>
+            </div>
+            <form action="" method="POST">
+                <div class="input-group">
+                    <div><label for="first-name">First name</label></div>
+                    <div><input type="text" name="first-name" id="first-name"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="last-name">Last name</label></div>
+                    <div><input type="text" name="last-name" id="last-name"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="address1">Address line 1</label></div>
+                    <div><input type="text" name="address1" id="address1"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="address2">Address line 2</label></div>
+                    <div><input type="text" name="address2" id="address2"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="county">County</label></div>
+                    <div>
+                        <select name="county" id="county">
+                            <option value="" selected>[Select one]</option>
+                            <optgroup label="England">
+                                <option>Bedfordshire</option>
+                                <option>Berkshire</option>
+                                <option>Bristol</option>
+                                <option>Buckinghamshire</option>
+                                <option>Cambridgeshire</option>
+                                <option>Cheshire</option>
+                                <option>City of London</option>
+                                <option>Cornwall</option>
+                                <option>Cumbria</option>
+                                <option>Derbyshire</option>
+                                <option>Devon</option>
+                                <option>Dorset</option>
+                                <option>Durham</option>
+                                <option>East Riding of Yorkshire</option>
+                                <option>East Sussex</option>
+                                <option>Essex</option>
+                                <option>Gloucestershire</option>
+                                <option>Greater London</option>
+                                <option>Greater Manchester</option>
+                                <option>Hampshire</option>
+                                <option>Herefordshire</option>
+                                <option>Hertfordshire</option>
+                                <option>Isle of Wight</option>
+                                <option>Kent</option>
+                                <option>Lancashire</option>
+                                <option>Leicestershire</option>
+                                <option>Lincolnshire</option>
+                                <option>Merseyside</option>
+                                <option>Norfolk</option>
+                                <option>North Yorkshire</option>
+                                <option>Northamptonshire</option>
+                                <option>Northumberland</option>
+                                <option>Nottinghamshire</option>
+                                <option>Oxfordshire</option>
+                                <option>Rutland</option>
+                                <option>Shropshire</option>
+                                <option>Somerset</option>
+                                <option>South Yorkshire</option>
+                                <option>Staffordshire</option>
+                                <option>Suffolk</option>
+                                <option>Surrey</option>
+                                <option>Tyne and Wear</option>
+                                <option>Warwickshire</option>
+                                <option>West Midlands</option>
+                                <option>West Sussex</option>
+                                <option>West Yorkshire</option>
+                                <option>Wiltshire</option>
+                                <option>Worcestershire</option>
+                            </optgroup>
+                            <optgroup label="Wales">
+                                <option>Anglesey</option>
+                                <option>Brecknockshire</option>
+                                <option>Caernarfonshire</option>
+                                <option>Carmarthenshire</option>
+                                <option>Cardiganshire</option>
+                                <option>Denbighshire</option>
+                                <option>Flintshire</option>
+                                <option>Glamorgan</option>
+                                <option>Merioneth</option>
+                                <option>Monmouthshire</option>
+                                <option>Montgomeryshire</option>
+                                <option>Pembrokeshire</option>
+                                <option>Radnorshire</option>
+                            </optgroup>
+                            <optgroup label="Scotland">
+                                <option>Aberdeenshire</option>
+                                <option>Angus</option>
+                                <option>Argyllshire</option>
+                                <option>Ayrshire</option>
+                                <option>Banffshire</option>
+                                <option>Berwickshire</option>
+                                <option>Buteshire</option>
+                                <option>Cromartyshire</option>
+                                <option>Caithness</option>
+                                <option>Clackmannanshire</option>
+                                <option>Dumfriesshire</option>
+                                <option>Dunbartonshire</option>
+                                <option>East Lothian</option>
+                                <option>Fife</option>
+                                <option>Inverness-shire</option>
+                                <option>Kincardineshire</option>
+                                <option>Kinross</option>
+                                <option>Kirkcudbrightshire</option>
+                                <option>Lanarkshire</option>
+                                <option>Midlothian</option>
+                                <option>Morayshire</option>
+                                <option>Nairnshire</option>
+                                <option>Orkney</option>
+                                <option>Peeblesshire</option>
+                                <option>Perthshire</option>
+                                <option>Renfrewshire</option>
+                                <option>Ross-shire</option>
+                                <option>Roxburghshire</option>
+                                <option>Selkirkshire</option>
+                                <option>Shetland</option>
+                                <option>Stirlingshire</option>
+                                <option>Sutherland</option>
+                                <option>West Lothian</option>
+                                <option>Wigtownshire</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div><label for="postcode">Postcode</label></div>
+                    <div><input type="text" name="postcode" id="postcode"></div>
+                </div>
+                <div class="input-group">
+                    <div><label for="comments">Delivery notes (optional)</label></div>
+                    <div>
+                        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Order">
+            </form>
+        </article>  
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script src="scripts/order.js"></script>
+</html>

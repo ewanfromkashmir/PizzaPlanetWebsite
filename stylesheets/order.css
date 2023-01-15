@@ -1,7 +1,3 @@
-article
-{
-    display: block;
-}
 
 .input-group
 {
@@ -46,4 +42,17 @@ input[type="submit"]
     border: solid 1px #00155c;
     border-radius: 3px;
     padding: 10px;
+}
+
+@media only screen and (min-width: 768px)
+{
+    article
+    {
+        width: 450px;
+    }
+
+    .input-group
+    {
+        margin-bottom: 20px;
+    }
 }

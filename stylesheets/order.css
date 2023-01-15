@@ -1,0 +1,49 @@
+article
+{
+    display: block;
+}
+
+.input-group
+{
+    margin-bottom: 20px;
+    display: inline block;
+    text-align: left;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select
+{
+    padding: 10px;
+    border: solid 1px #00155c;
+    border-radius: 2px;
+    max-width: 400px;
+    width: 100%;
+}
+
+label
+{
+    font-weight: 600;
+}
+
+h1
+{
+    font-size: 3em;
+    margin-top: .5em;
+}
+
+input[type="reset"]
+{
+    background: transparent;
+    border: 0;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff;
+}
+
+input[type="submit"]
+{
+    border: solid 1px #00155c;
+    border-radius: 3px;
+    padding: 10px;
+}

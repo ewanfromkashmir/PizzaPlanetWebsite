@@ -6,6 +6,8 @@ window.addEventListener("DOMContentLoaded", function(e)
     {
         const pizzaOrder = JSON.parse(order);
         const pizza = document.querySelector(".pizza");
+        const orderInput = document.querySelector("#pizza-order");
+        orderInput.value = order;
 
         const title = pizza.querySelector(".title");
         const price = pizza.querySelector(".price");

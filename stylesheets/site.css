@@ -40,7 +40,9 @@ main
 {
     display: block;
     color:#fff;
-    background-image: url("images/night-sky.png");
+    background-image: url("../images/night-sky.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
     padding-top: 3em;
     padding-bottom: 3em;
     min-height: 85%;

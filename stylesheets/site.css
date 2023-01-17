@@ -142,6 +142,15 @@ nav > ul > li
     display: flex;
 }
 
+.textbox
+{
+    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #fff;
+    color: #000;
+    border: solid 1px #00155c;
+}
+
 
 /* Desktop only */
 

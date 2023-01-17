@@ -3,8 +3,7 @@ window.addEventListener("DOMContentLoaded", function(e)
     const orderButtons = document.querySelectorAll("button[size]");
     var totalItems = 0;
     var totalCost = 0.0;
-
-    this.localStorage.clear();
+    updateHeader();
 
     orderButtons.forEach(function(button)
     {
@@ -20,10 +19,7 @@ window.addEventListener("DOMContentLoaded", function(e)
                 desc: container.querySelector(".desc").innerText
             };
 
-            const url = window.location.href.replace("pizzas.html", "order.html");
-
             addItemToBasket(order.price, button.getAttribute("size"));
-            //window.location.href = url;
         });
     });
 
@@ -44,6 +40,7 @@ window.addEventListener("DOMContentLoaded", function(e)
         localStorage.setItem("cost", totalCost.toFixed(2));
         localStorage.setItem("items", totalItems);
         console.log(localStorage);
+        updateHeader();
     }
 
     function toOrderPage()
@@ -56,5 +53,21 @@ window.addEventListener("DOMContentLoaded", function(e)
     {
         totalCost = 0.0;
         totalItems = 0;
+    }
+
+    function updateHeader()
+    {
+        orderLink = document.getElementById("order");
+
+        if (totalItems > 0)
+        {
+            orderLink.innerText = ("Complete Order (" + totalItems + ")");
+            orderLink.style.textDecoration = "underline";
+        }
+        else
+        {
+            orderLink.innerText = "";
+            orderLink.style.textDecoration = "";
+        }
     }
 });

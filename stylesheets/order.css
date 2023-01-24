@@ -42,6 +42,23 @@ input[type="submit"]
     border: solid 1px #00155c;
     border-radius: 3px;
     padding: 10px;
+    cursor: pointer;
+}
+
+input[type="button"]
+{
+    border: solid 1px #00155c;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button 
+{
+    border: solid 1px #00155c;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
 }
 
 @media only screen and (min-width: 768px)

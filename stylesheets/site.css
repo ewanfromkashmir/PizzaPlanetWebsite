@@ -164,9 +164,9 @@ nav img
     padding-bottom: 10px;
     padding-left: 10px;
     text-align: left;
-    background-color: #fff;
-    color: #000;
-    border: solid 1px #00155c;
+    color: #fff;
+    max-width: 300px;
+    font-size: larger;
 }
 
 .buttons

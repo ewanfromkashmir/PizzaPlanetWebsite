@@ -135,9 +135,13 @@ nav img
     width: 40px;
     display: flex;
     margin-top: 10px;
-
 }
 
+aside > h1
+{
+    padding-top: 20px;
+    font-size: 46px;
+}
 
 
 

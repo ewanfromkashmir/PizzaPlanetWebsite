@@ -55,10 +55,10 @@ footer
 {
     display: block;
     padding: 20px;
-    border-top: solid 1px #fff;
     z-index: 1000;
     text-align: center;
-    color:#fff
+    color:#fff;
+    background-image: url("../images/night-sky.png");
 }
 
 
